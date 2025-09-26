@@ -2,28 +2,27 @@
   "inbounds": [
     {
       "port": 8080,
-      "listen": "0.0.0.0",
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "i1takt",
+            "id": "acde070d-8c4c-4f0d-9d8a-162843c10333",
             "alterId": 0
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
         "wsSettings": {
-          "path": "/"
+          "path": "/ws"
         }
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "freedom"
+      "protocol": "freedom",
+      "settings": {}
     }
   ]
 }
