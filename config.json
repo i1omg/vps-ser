@@ -7,24 +7,23 @@
       "settings": {
         "clients": [
           {
-            "id": "i1takt-4d8a7d4d-9c27-4f1d-a78f-7c88f24e9a77",
-            "alterId": 0,
-            "security": "auto"
+            "id": "i1takt",
+            "alterId": 0
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "none",
         "wsSettings": {
-          "path": "/ray"
+          "path": "/"
         }
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "freedom"
     }
   ]
 }
