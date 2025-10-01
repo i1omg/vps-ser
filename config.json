@@ -1,33 +1,21 @@
 {
-  "inbounds": [
-    {
-      "port": 10085,
-      "listen": "127.0.0.1",
-      "protocol": "vmess",
-      "settings": {
-        "clients": [
-          {
-            "id": "bab3653e-f03b-464b-988c-cb08803c6e6a",
-            "alterId": 0,
-            "security": "auto"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/@exhxx",
-          "headers": {
-            "Host": "vm.tiktok.com"
-          }
-        }
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "8f91b6a0-e8ee-11ea-adc1-0242ac120002",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/vmess"
       }
     }
-  ],
-  "outbounds": [
-    {
-      "protocol": "freedom",
-      "settings": {}
-    }
-  ]
+  }],
+  "outbounds": [{
+    "protocol": "freedom"
+  }]
 }
